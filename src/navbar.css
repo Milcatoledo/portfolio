@@ -1,0 +1,20 @@
+header {
+    font-weight: 500;
+}
+
+header a {
+    margin-left: 3%;
+    color: white !important;
+}
+
+header ul {
+    margin-right: 2%;
+}
+
+header .nav-link:hover {
+    color: #ffd700 !important;
+}
+
+.navbar-solida {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+}
