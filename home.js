@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const navbar = document.querySelector(".navbar");
             const hero = document.querySelector(".hero");
             if (!navbar) return;
-            // Si hay hero, aplicar el efecto de transparencia
+            
             if (hero) {
                 const heroHeight = hero.offsetHeight;
                 window.addEventListener("scroll", function() {
@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 });
             } else {
-                // Si no hay hero la navbar es sólida siempre
                 navbar.classList.add("navbar-solida");
                 navbar.classList.remove("navbar-transparente");
             }
